@@ -1,0 +1,23 @@
+@keyframes slideInFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  
+  .cert_card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width:600px !important;
+    height: 350px !important;
+;
+    
+
+    animation: slideInFromBottom 1s forwards;
+  }
+  

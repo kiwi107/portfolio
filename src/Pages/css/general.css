@@ -1,0 +1,51 @@
+.page{
+    background: linear-gradient(to right, #0d1017, #3c4653);
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden !important;
+    
+    
+}
+@keyframes slideInTitle{
+    0% {
+      opacity: 0;
+      transform: translateY(-50px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.title{
+    color: #06eef6;
+    animation: slideInTitle 1s forwards;
+}
+
+
+@keyframes slideInFromBottom{
+    0% {
+      opacity: 0;
+      transform: translateY(50px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+.custom-text{
+  color:azure;
+  font-size: 1rem;
+  animation: slideInFromBottom 1s forwards;
+}
+
+.custom-nav{
+  color: azure !important;
+  cursor: pointer;
+
+}
+.active{
+    color: orange !important;
+}
